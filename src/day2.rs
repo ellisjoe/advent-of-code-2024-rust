@@ -1,10 +1,8 @@
 #[cfg(test)]
 mod tests {
-    use std::fs;
     use std::fs::File;
     use std::io::{BufRead, BufReader};
     use std::path::Path;
-    use anyhow::Result;
 
     #[test]
     fn part1() {

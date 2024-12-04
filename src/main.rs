@@ -1,4 +1,5 @@
 mod day2;
+mod day3;
 
 use anyhow::Result;
 use std::collections::HashMap;
